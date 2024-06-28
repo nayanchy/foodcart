@@ -2,8 +2,8 @@
 import GlobalApi from "@/app/_utils/GlobalApi";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import Intro from "../_components/intro";
-import LeftTabs from "../_components/LeftTabs";
+import Intro from "@/app/(routes)/restaurant/_components/Intro";
+import LeftTabs from "@/app/(routes)/restaurant/_components/LeftTabs";
 
 function ReastaurantDetails() {
   const param = usePathname();
